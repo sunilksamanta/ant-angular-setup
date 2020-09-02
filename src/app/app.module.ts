@@ -9,6 +9,8 @@ import { en_US } from 'ng-zorro-antd/i18n';
 import { registerLocaleData } from '@angular/common';
 import en from '@angular/common/locales/en';
 import {CoreModule} from '@core/core.module';
+import {LayoutModule} from './layout/layout.module';
+import {MiscellaneousModule} from './miscellaneous/miscellaneous.module';
 
 registerLocaleData(en);
 
@@ -20,7 +22,9 @@ registerLocaleData(en);
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    CoreModule
+    CoreModule,
+    LayoutModule,
+    MiscellaneousModule
   ],
   providers: [{ provide: NZ_I18N, useValue: en_US }],
   bootstrap: [AppComponent]

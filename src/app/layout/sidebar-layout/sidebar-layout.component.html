@@ -1,0 +1,15 @@
+<nz-layout class="layout">
+  <nz-sider nzCollapsible [(nzCollapsed)]="isCollapsed" [nzTrigger]="null">
+    <div class="logo"></div>
+    <app-sidebar></app-sidebar>
+  </nz-sider>
+  <nz-layout [class]="isCollapsed? 'right-layout-min': 'right-layout-full'">
+    <app-header (collapsed)="onCollapseChange($event)"></app-header>
+    <nz-content>
+      <div class="inner-content">
+        <router-outlet></router-outlet>
+      </div>
+    </nz-content>
+    <nz-footer>Ant Angular Setup ©2020</nz-footer>
+  </nz-layout>
+</nz-layout>
