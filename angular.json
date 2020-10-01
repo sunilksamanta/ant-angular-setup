@@ -36,7 +36,10 @@
               "src/theme.less",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "allowedCommonJsDependencies": [
+              "@ant-design/colors"
+            ]
           },
           "configurations": {
             "production": {
