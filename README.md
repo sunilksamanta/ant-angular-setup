@@ -1,5 +1,7 @@
 # Ant Angular Setup
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/92b9c32e-e373-4b45-9623-32e236b8646f/deploy-status)](https://app.netlify.com/sites/goofy-torvalds-968eb6/deploys)
+
 ## Angular: [Angular CLI](https://github.com/angular/angular-cli) version 10
 ## UI Framework: [Ant Design](https://ng.ant.design/) version 10x
 
